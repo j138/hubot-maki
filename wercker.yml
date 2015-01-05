@@ -13,12 +13,3 @@ build:
   after-steps:
     - wantedly/pretty-slack-notify:
       webhook_url: $SLACK_WEBHOOK_URL
-deploy:
-  steps:
-    - script:
-        name: deploy steps
-        code: |
-          echo "deploying"
-  after-steps:
-    - wantedly/pretty-slack-notify:
-      webhook_url: $SLACK_WEBHOOK_URL
