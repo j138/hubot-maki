@@ -14,7 +14,6 @@ build:
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
         channel: 'deploy-logs'
-
 deploy:
   steps:
     - script:
