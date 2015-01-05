@@ -12,4 +12,4 @@ build:
           echo "npm version $(npm -v) running"
   after-steps:
     - wantedly/pretty-slack-notify:
-      webhook_url: $SLACK_WEBHOOK_URL
+        webhook_url: $SLACK_WEBHOOK_URL
