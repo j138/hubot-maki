@@ -1,7 +1,10 @@
 # Makibot
+fork: [sanographix/makibot](https://github.com/sanographix/makibot)
+
+miyahira鯖用makibot
+[![wercker status](https://app.wercker.com/status/dc774c0fdd0a1a1b11b1ada04451a7ef/s/master "wercker status")](https://app.wercker.com/project/bykey/dc774c0fdd0a1a1b11b1ada04451a7ef)
 
 Makibot is Nishikino Maki bot
-
 ![](https://31.media.tumblr.com/4d20232bef50e3204cdacecaaa585755/tumblr_inline_n7pekiSsG31qaxsyz.png)
 
 # Deploy Hubot to Heroku
