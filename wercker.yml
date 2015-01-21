@@ -15,10 +15,7 @@ build:
         webhook_url: $SLACK_WEBHOOK_URL
 deploy:
   steps:
-    - jshint
-    - script:
-        name: echo nodejs deploying
-        code: echo "node version $(node -v) deploying"
+    - heroku-deploy
   after-steps:
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
