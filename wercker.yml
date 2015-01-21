@@ -10,6 +10,6 @@ build:
         code: |
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
-  # after-steps:
-  #   - wantedly/pretty-slack-notify:
-  #       webhook_url: $SLACK_WEBHOOK_URL
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        webhook_url: "https://hooks.slack.com/services/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"
