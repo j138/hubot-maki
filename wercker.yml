@@ -13,12 +13,12 @@ build:
   after-steps:
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
-build:
+deploy:
   steps:
     - jshint
     - script:
-        name: echo nodejs building
-        code: echo "node build running"
+        name: echo nodejs deploying
+        code: echo "node version $(node -v) deploying"
   after-steps:
     - wantedly/pretty-slack-notify:
         webhook_url: $SLACK_WEBHOOK_URL
