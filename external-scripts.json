@@ -1,4 +1,5 @@
 [
+  "hubot-slack-rainfall-alert",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
