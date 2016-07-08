@@ -685,6 +685,11 @@
       "from": "hubot-rules@>=0.1.1 <0.2.0",
       "resolved": "https://registry.npmjs.org/hubot-rules/-/hubot-rules-0.1.1.tgz"
     },
+    "hubot-shipit": {
+      "version": "0.2.0",
+      "from": "hubot-shipit@latest",
+      "resolved": "https://registry.npmjs.org/hubot-shipit/-/hubot-shipit-0.2.0.tgz"
+    },
     "hubot-slack": {
       "version": "3.4.2",
       "from": "hubot-slack@>=3.4.2 <4.0.0",
