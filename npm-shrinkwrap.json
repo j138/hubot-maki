@@ -650,6 +650,11 @@
       "from": "hubot-diagnostics@0.0.1",
       "resolved": "https://registry.npmjs.org/hubot-diagnostics/-/hubot-diagnostics-0.0.1.tgz"
     },
+    "hubot-google-translate": {
+      "version": "0.2.0",
+      "from": "hubot-google-translate@latest",
+      "resolved": "https://registry.npmjs.org/hubot-google-translate/-/hubot-google-translate-0.2.0.tgz"
+    },
     "hubot-help": {
       "version": "0.2.0",
       "from": "hubot-help@>=0.2.0 <0.3.0",
