@@ -42,7 +42,6 @@
     "hubot-slack-rainfall-alert": "^1.0.7",
     "hubot-urban": "^1.0.1",
     "hubot-youtube": "^1.0.2",
-    "lodash": "^4.13.1",
     "log": "1.4.0",
     "moment-timezone": "^0.4.0",
     "optparse": "1.0.4",
