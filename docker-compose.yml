@@ -1,0 +1,33 @@
+version: '2'
+services:
+  hubot:
+    build: .
+    environment:
+      TZ: "Asia/Tokyo"
+      HUBOT_SLACK_TOKEN: xoxb-57236036736-tIjoIz6cdr5r93VqtsktRchY
+      HUBOT_RAINFALL_ALERT_YAHOO_APP_ID: dj0zaiZpPUJuVVdKdkFSZmp5RyZzPWNvbnN1bWVyc2VjcmV0Jng9OTE-
+      HUBOT_RAINFALL_ALERT_GOOGLE_API_KEY: AIzaSyDHbssG6hzgcAcITVpICzhJCGkmcWmv0eM
+      HUBOT_RAINFALL_ALERT_CHANNEL: ramdom
+      HUBOT_RAINFALL_ALERT_THRESH: 0.5
+      HUBOT_RAINFALL_ALERT_CRONTIME: "0 */15 0,9-20 * * *"
+      HUBOT_RAINFALL_ALERT_LAT: 26.223279
+      HUBOT_RAINFALL_ALERT_LON: 127.695744
+      HUBOT_RAINFALL_ALERT_LAT_FOR_MAP: 26.223279
+      HUBOT_RAINFALL_ALERT_LON_FOR_MAP: 126.895744
+      HUBOT_RAINFALL_ALERT_IMAGE_WIDTH: 500
+      HUBOT_RAINFALL_ALERT_IMAGE_HEIGHT: 500
+    volumes:
+      - .:/opt/hubot
+    ports:
+        - "8080:8080"
+    networks:
+      - back-tier
+  redis:
+    image: redis:3.2.0-alpine
+    ports:
+        - "6379:6379"
+    networks:
+      - back-tier
+networks:
+  back-tier:
+    driver: bridge
