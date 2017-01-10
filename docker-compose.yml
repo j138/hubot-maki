@@ -4,7 +4,7 @@ services:
     build: .
     environment:
       TZ: "Asia/Tokyo"
-      HUBOT_SLACK_TOKEN: xoxb-57236036736-tIjoIz6cdr5r93VqtsktRchY
+      HUBOT_SLACK_TOKEN: xoxb-3331798221-HmW0jXunOr9jtiKh71SSTtjm
       HUBOT_RAINFALL_ALERT_YAHOO_APP_ID: dj0zaiZpPUJuVVdKdkFSZmp5RyZzPWNvbnN1bWVyc2VjcmV0Jng9OTE-
       HUBOT_RAINFALL_ALERT_GOOGLE_API_KEY: AIzaSyDHbssG6hzgcAcITVpICzhJCGkmcWmv0eM
       HUBOT_RAINFALL_ALERT_CHANNEL: ramdom
