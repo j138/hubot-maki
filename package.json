@@ -11,7 +11,7 @@
   "main": "./index",
   "bin": {
     "hubot": "./bin/hubot"
-  }
+  },
   "scripts": {
     "start": "./bin/hubot",
     "eslint:fix": "eslint --ext=js --ext=jsx --fix .",
