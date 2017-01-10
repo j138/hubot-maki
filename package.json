@@ -8,6 +8,10 @@
     "campfire",
     "bot"
   ],
+  "main": "./index",
+  "bin": {
+    "hubot": "./bin/hubot"
+  }
   "scripts": {
     "start": "./bin/hubot",
     "eslint:fix": "eslint --ext=js --ext=jsx --fix .",
@@ -61,13 +65,5 @@
     "sinon-chai": "^2.8.0",
     "sinon": "~1.17.7",
     "chai": "~3.5.0"
-  },
-  "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
-  },
-  "main": "./index",
-  "bin": {
-    "hubot": "./bin/hubot"
   }
 }
