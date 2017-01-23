@@ -16,7 +16,7 @@
     "start": "./bin/hubot",
     "eslint:fix": "eslint --ext=js --ext=jsx --fix .",
     "test": "./script/test",
-    "ncu": "ncu -a -x 'eslint-plugin-import'"
+    "ncu": "ncu -a"
   },
   "description": "maki-chan prpr",
   "license": "MIT",
