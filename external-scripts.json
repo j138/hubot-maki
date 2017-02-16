@@ -1,12 +1,12 @@
 [
-  "hubot-slack-rainfall-alert",
   "hubot-diagnostics",
   "hubot-help",
   "hubot-heroku-keepalive",
-  "hubot-pugme",
   "hubot-maps",
+  "hubot-pugme",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-youtube",
-  "hubot-shipit"
+  "hubot-slack-rainfall-alert",
+  "hubot-shipit",
+  "hubot-youtube"
 ]

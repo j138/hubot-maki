@@ -8,6 +8,10 @@
     "campfire",
     "bot"
   ],
+  "main": "./index",
+  "bin": {
+    "hubot": "./bin/hubot"
+  },
   "scripts": {
     "start": "./bin/hubot",
     "eslint:fix": "eslint --ext=js --ext=jsx --fix .",
@@ -35,7 +39,7 @@
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-help": "^0.2.0",
-    "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-heroku-keepalive": "https://registry.npmjs.org/hubot-heroku-keepalive/-/hubot-heroku-keepalive-1.0.2.tgz",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -60,13 +64,5 @@
     "sinon-chai": "^2.8.0",
     "sinon": "~1.17.7",
     "chai": "~3.5.0"
-  },
-  "engines": {
-    "node": ">= 0.8.x",
-    "npm": ">= 1.1.x"
-  },
-  "main": "./index",
-  "bin": {
-    "hubot": "./bin/hubot"
   }
 }
