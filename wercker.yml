@@ -1,4 +1,4 @@
-box: node:7.7-slim
+box: node:7.7.4-slim
 services:
   - wercker/redis
 build:
