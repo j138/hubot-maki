@@ -1,7 +1,7 @@
+box: node:4.2.6-slim
 services:
   - wercker/redis
 build:
-  box: node:4.2.6-slim
   steps:
     - npm-install
     - npm-test
