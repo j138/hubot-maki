@@ -1,4 +1,4 @@
-box: nodesource/trusty
+box: node:7.7-slim
 services:
   - wercker/redis
 build:
