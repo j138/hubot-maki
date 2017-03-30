@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "./bin/hubot",
+    "test": "eslint ./scripts",
     "ncu": "ncu -a"
   },
   "dependencies": {
@@ -42,12 +43,13 @@
     "hubot-youtube": "1.0.2"
   },
   "devDependencies": {
-    "hubot-mock-adapter": "^1.0.0",
+    "chai": "~3.5.0",
     "coffee-errors": "0.8.6",
+    "eslint": "3.18.0",
+    "hubot-mock-adapter": "^1.0.0",
     "mocha": "^3.2.0",
     "mockery": "^2.0.0",
-    "sinon-chai": "^2.9.0",
     "sinon": "~2.1.0",
-    "chai": "~3.5.0"
+    "sinon-chai": "^2.9.0"
   }
 }
