@@ -1,4 +1,5 @@
-box: node:7.7.4
+box: nodesource/trusty
+
 services:
   - wercker/redis
 build:
